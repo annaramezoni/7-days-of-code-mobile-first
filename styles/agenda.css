@@ -1,0 +1,85 @@
+.agenda__day {
+    font-weight: 700;
+    margin-bottom: 1.6rem;    
+}
+
+.agenda__card {
+    background-color: var(--white-color);
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1.6rem;
+    list-style-type: none;
+}
+
+.card__top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--text-color-light);
+    padding: 1.6rem;
+}
+
+.card__top__photo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.card__top__info {
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.card__top__name {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.card__top__text {
+    font-size: 1.2rem;
+    color: var(--text-color-light);
+    padding-left: 2rem;
+}
+.remote {
+    background-image: url(../Img/Camera.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.local {
+    background-image: url(../Img/Pinn.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1rem;
+}
+.card__top__message {
+    border: none;
+    background-image: url(../Img/Chatcirculo1.svg);
+    background-color: transparent;
+    width: 32px;
+    cursor: pointer;
+}
+.card__bottom {
+    padding: 1.6rem;
+}
+.card__bottom__time {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.card__btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.8rem;
+    margin-top: 1rem;
+}
+
+.btn-bottom {
+    width: 50%;
+}
+
+.card__bottom .btn-blue {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+

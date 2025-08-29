@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('header-profile.css');
+@import url('agenda.css');
+@import url('buttons.css');
+
+:root {
+    --main-font: montserrat, sans-serif;
+
+    --text-color: #464646;
+    --text-color-light: #A3A3A3;
+    --white-color: #FFF;
+    --btn-color: #FFB050;
+    --btn-color-2: #4894FF;
+    --background-color: #ECECEC;
+    --border-color: #ECECEC;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+main {
+    background-color: var(--background-color);
+    padding: 2rem 1rem;
+}
+
+
+
