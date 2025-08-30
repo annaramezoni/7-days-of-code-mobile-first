@@ -1,0 +1,30 @@
+.backdrop {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height:100vh;
+    z-index: 10;
+    background-color: #000;
+    opacity: 60%;
+}
+.backdrop__btns {
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+}
+.backdrop__btns div {
+    display: flex;
+    align-items: center;
+}
+.backdrop__btns div>span {
+    background-color: var(--white-color);
+    border-radius: 2323px;
+    padding: 0.3em 0.8em;
+    font-size: 1.2rem;
+}

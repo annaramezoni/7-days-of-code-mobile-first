@@ -12,37 +12,28 @@
     left: 0;   /* optional, aligns to the left */
     width: 100%;  /* spans across the viewport */
     padding-top: 2rem;
+    padding-bottom: 0.5rem;
     font-size: 1.2rem;
 }
 .footer a {
     text-decoration: none;
     color: inherit;
-}
-.footer button {    
-    border: none;
-    background-color: transparent;
-    font-family: inherit;
-    color: inherit;
-    font-size: 1.2rem;
-}
-.footer a,
-.footer button {
     padding-top: 3rem;    
     background-position: top center;
     background-repeat: no-repeat;
 }
-.footer :nth-child(1) {
+.footer a:nth-child(1) {
     color: var(--btn-color-2);
 }
 .footer a.consultas {
-background-image: url(../Img/Calendarioicone.svg);
+    background-image: url(../Img/Calendarioicone.svg);
 }
 .footer a.clientes {
-background-image: url(../Img/clientes\ icone.svg);
+    background-image: url(../Img/clientes\ icone.svg);
 }
 .footer a.relatorios {
-background-image: url(../Img/relatorios\ icone.svg);
+    background-image: url(../Img/relatorios\ icone.svg);
 }
-.footer button.menu {
-background-image: url(../Img/menu\ icone.svg);
+.footer .menu {
+    background-image: url(../Img/menu\ icone.svg);
 }

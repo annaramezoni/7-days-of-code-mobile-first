@@ -4,6 +4,7 @@
 @import url('agenda.css');
 @import url('buttons.css');
 @import url('footer.css');
+@import url('backdrop-menu.css');
 
 :root {
     --main-font: montserrat, sans-serif;
@@ -30,3 +31,6 @@ body {
     padding: 2rem 1rem;
 }
 
+main {
+    padding-bottom: 60px;
+}
