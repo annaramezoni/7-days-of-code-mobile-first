@@ -3,6 +3,7 @@
 @import url('header-profile.css');
 @import url('agenda.css');
 @import url('buttons.css');
+@import url('footer.css');
 
 :root {
     --main-font: montserrat, sans-serif;
@@ -25,12 +26,7 @@ body {
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--text-color);
-}
-
-main {
     background-color: var(--background-color);
     padding: 2rem 1rem;
 }
-
-
 
