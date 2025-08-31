@@ -1,3 +1,7 @@
+.agenda {
+    max-width: 500px;
+    margin: 0 auto;
+}
 .agenda__day {
     font-weight: 700;
     margin-bottom: 1.6rem;    
@@ -83,3 +87,41 @@
 
 
 
+@media screen and (min-width: 700px) {
+
+    .agenda {
+        max-width: 900px;
+        margin: 4rem auto;
+    }
+
+    .agenda__day {
+        font-size: 1.8rem;
+        margin: 2.5rem 0 2rem 0;
+    }
+
+    .agenda ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+
+    .agenda {
+        max-width: 1300px;
+        margin: 8rem auto 2rem auto;
+    }
+
+    .agenda__day {
+        font-size: 1.8rem;
+        margin: 2.5rem 0 2rem 0;
+    }
+
+    .agenda ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}
