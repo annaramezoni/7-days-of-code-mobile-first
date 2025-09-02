@@ -25,13 +25,13 @@
 .main-menu a:nth-child(1) {
     color: var(--btn-color-2);
 }
-.main-menu a.consultas {
+.main-menu a.appointment {
     background-image: url(../Img/Calendarioicone.svg);
 }
 .main-menu a.clientes {
     background-image: url(../Img/clientes\ icone.svg);
 }
-.main-menu a.relatorios {
+.main-menu a.records {
     background-image: url(../Img/relatorios\ icone.svg);
 }
 .main-menu .menu {
@@ -60,6 +60,9 @@
         left: 0;   /* optional, aligns to the left */
         width: 100px;  /* spans across the viewport */
         font-size: 1.2rem;
+    }
+    .appointment {
+        display: none;
     }
 }
 
