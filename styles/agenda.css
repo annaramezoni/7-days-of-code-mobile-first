@@ -87,7 +87,7 @@
 
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 825px) {
 
     .agenda {
         max-width: 850px;
@@ -102,12 +102,12 @@
     .agenda ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 3rem;
         margin: 0 auto;
     }
 }
 
-@media screen and (min-width: 1230px) {
+@media screen and (min-width: 1320px) {
 
     .agenda {
         max-width: 1300px;
@@ -122,6 +122,6 @@
     .agenda ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 1.5rem;
+        gap: 6rem;
     }
 }
