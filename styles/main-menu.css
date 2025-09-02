@@ -37,3 +37,55 @@
 .main-menu .menu {
     background-image: url(../Img/menu\ icone.svg);
 }
+
+
+@media screen and (min-width: 700px) {
+    
+    .header-profile,
+    main {
+       padding-left: 110px; 
+    }
+
+    main {
+        padding-bottom: 0px;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        padding-left: 1rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        height: 100%;
+        top: 0;
+        left: 0;   /* optional, aligns to the left */
+        width: 100px;  /* spans across the viewport */
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    
+    .main-menu {
+        width: 150px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+        gap: 2rem;
+    }
+
+    .main-menu a {    
+        padding: 1rem 0 1rem 3rem;
+        background-position: left center;
+        font-size: 1.8rem;
+    }
+
+    .header-profile,
+    main {
+       padding-left: 180px;
+    }
+}
+
+@media screen and (min-width: 1040px)
+
+
+    

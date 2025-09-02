@@ -87,7 +87,7 @@
 
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
 
     .agenda {
         max-width: 900px;
@@ -107,7 +107,7 @@
     }
 }
 
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 1230px) {
 
     .agenda {
         max-width: 1300px;
@@ -124,4 +124,8 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
     }
+}
+
+@media screen and (min-width: 1040px) {
+
 }
