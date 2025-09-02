@@ -1,7 +1,11 @@
 .header-profile {
+    margin-bottom: 3.2rem;
+}
+.profile__wrapper {
     display: flex;
     gap: 1rem;
-    margin-bottom: 3.2rem;
+    max-width: 450px;
+    margin: 0 auto;
 }
 .profile__picture {
     border-radius: 50%;
@@ -17,4 +21,19 @@
 .profile__text {
     font-size: 1.4rem;
     color: var(--text-color-light);
+}
+
+@media screen and (min-width: 800px) {
+
+    .profile__wrapper {
+        max-width: 850px;
+        margin: 0rem auto;
+    }
+}
+
+@media screen and (min-width: 1230px) {
+
+    .profile__wrapper {
+        max-width: 1300px;
+    }
 }

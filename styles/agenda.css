@@ -1,5 +1,5 @@
 .agenda {
-    max-width: 500px;
+    max-width: 450px;
     margin: 0 auto;
 }
 .agenda__day {
@@ -90,7 +90,7 @@
 @media screen and (min-width: 800px) {
 
     .agenda {
-        max-width: 900px;
+        max-width: 850px;
         margin: 4rem auto;
     }
 
@@ -124,8 +124,4 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
     }
-}
-
-@media screen and (min-width: 1040px) {
-
 }
