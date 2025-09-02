@@ -1,4 +1,4 @@
-.footer {
+.main-menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,25 +15,25 @@
     padding-bottom: 0.5rem;
     font-size: 1.2rem;
 }
-.footer a {
+.main-menu a {
     text-decoration: none;
     color: inherit;
     padding-top: 3rem;    
     background-position: top center;
     background-repeat: no-repeat;
 }
-.footer a:nth-child(1) {
+.main-menu a:nth-child(1) {
     color: var(--btn-color-2);
 }
-.footer a.consultas {
+.main-menu a.consultas {
     background-image: url(../Img/Calendarioicone.svg);
 }
-.footer a.clientes {
+.main-menu a.clientes {
     background-image: url(../Img/clientes\ icone.svg);
 }
-.footer a.relatorios {
+.main-menu a.relatorios {
     background-image: url(../Img/relatorios\ icone.svg);
 }
-.footer .menu {
+.main-menu .menu {
     background-image: url(../Img/menu\ icone.svg);
 }
