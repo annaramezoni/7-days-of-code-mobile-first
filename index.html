@@ -222,7 +222,33 @@
             </section>
         </section>  
         <section class="main-menu">
-            <a class="appointment" href="index2.html">Consultas</a>
+            <a class="appointment -float" href="index2.html">Consultas</a>
+            <!-- <div class="appointments__drop-down"> -->
+                <input type="checkbox" id="patient__name" class="patient__name">
+                <label for="patient__name"><span class="appointment -drop-down" href=>Consultas</span></label>
+
+                <form class="patient__info">
+                    <label for="patient__name">Nome do paciente</label>
+                    <input type="text" id="patient__name" class="patient__name">
+
+                    <label for="patient__type-of-appointment">Selecione o tipo de atendimento</label>
+                    <select id="patient__type-of-appointment" class="patient__type-of-appointment">
+                        <option value="video">Vídeo</option>
+                        <option value="in-person">Presencial</option>
+                    </select>
+                    <label for="patient__date">Data da consulta</label>
+                    <input type="date" id="patient__date" class="patient__date">
+
+                    <label for="patient__time">Hora da consulta</label>
+                    <input type="time" id="patient__time" class="patient__time">
+
+                    <label for="patient__obs">Observações</label>
+                    <input type="text" id="patient__obs" class="patient__obs">
+
+                    <button class="btn-blue patient-save">Salvar</button>
+
+                </form>
+            <!-- </div> -->
             <a class="clients" href="#">Clientes</a>
             <a class="records" href="#">Relatório</a>
             <a href="#" class="menu">Menu</a>

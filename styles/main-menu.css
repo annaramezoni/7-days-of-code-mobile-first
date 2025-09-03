@@ -15,27 +15,31 @@
     padding-bottom: 0.5rem;
     font-size: 1.2rem;
 }
-.main-menu a {
+.main-menu a,
+.appointment {
     text-decoration: none;
     color: inherit;
     padding-top: 3rem;    
     background-position: top center;
     background-repeat: no-repeat;
 }
-.main-menu a:nth-child(1) {
+
+.main-menu .appointment {
+    background-image: url(../Img/Calendarioicone.svg);
     color: var(--btn-color-2);
 }
-.main-menu a.appointment {
-    background-image: url(../Img/Calendarioicone.svg);
-}
-.main-menu a.clientes {
+.main-menu .clients {
     background-image: url(../Img/clientes\ icone.svg);
 }
-.main-menu a.records {
+.main-menu .records {
     background-image: url(../Img/relatorios\ icone.svg);
 }
 .main-menu .menu {
     background-image: url(../Img/menu\ icone.svg);
+}
+.appointment.-drop-down,
+.patient__info {
+    display: none;
 }
 
 
@@ -61,22 +65,21 @@
         width: 100px;  /* spans across the viewport */
         font-size: 1.2rem;
     }
-    .appointment {
-        display: none;
-    }
+    
 }
 
 @media screen and (min-width: 1040px) {
     
     .main-menu {
-        width: 150px;
+        width: 245px;
         justify-content: flex-start;
         align-items: flex-start;
-        
+        padding-right: 1rem;
         gap: 2rem;
     }
 
-    .main-menu a {    
+    .main-menu a,
+    .appointment {    
         padding: 1rem 0 1rem 3rem;
         background-position: left center;
         font-size: 1.8rem;
@@ -84,8 +87,62 @@
 
     .header-profile,
     main {
-       padding-left: 180px;
+       padding-left: 265px;
     }
+    .appointment.-float {
+        display: none;
+    }
+    .appointment.-drop-down {
+        display: block;
+    }
+    .patient__info {
+        display: none;
+    }
+    .patient__name:checked ~ .patient__info {
+        display: block;
+    }
+
+    .patient__name {
+        appearance: none;
+    }
+
+    .patient__info label {
+        display: block;
+        padding: 1rem 0;
+        color: #898989;
+    }
+    .patient__info input,
+    .patient__info select {
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        background-color: var(--white-color);
+        width: 238px;
+        height: 35px;
+        color: #CFCFCF;
+        box-sizing: border-box;
+    }
+    .patient__info input:hover,
+    .patient__info select:hover,
+    .patient__info input:active,
+    .patient__info select:active  {
+        border-color: var(--btn-color-2);
+    }
+   
+    .patient-save {
+        width: 238px;
+        margin-top: 2rem;
+    }
+
+    .patient__type-of-appointment option,
+    .patient__date,
+    .patient__time {
+        color: #CFCFCF;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator,
+    input[type="time"]::-webkit-calendar-picker-indicator {
+         filter: brightness(0) saturate(100%) invert(90%) sepia(1%) saturate(283%)
+          hue-rotate(177deg) brightness(93%) contrast(89%);
+}
 }
 
 @media screen and (min-width: 1040px)
