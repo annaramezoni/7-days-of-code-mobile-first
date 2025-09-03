@@ -41,6 +41,9 @@
 .patient__info {
     display: none;
 }
+.patient__name {
+    appearance: none;
+}
 
 
 @media screen and (min-width: 700px) {
