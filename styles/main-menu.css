@@ -15,7 +15,7 @@
     padding-bottom: 0.5rem;
     font-size: 1.2rem;
 }
-.main-menu a,
+.menu-btn,
 .appointment {
     text-decoration: none;
     color: inherit;
@@ -37,11 +37,10 @@
 .main-menu .menu {
     background-image: url(../Img/menu\ icone.svg);
 }
-.appointment.-drop-down,
 .patient__info {
     display: none;
 }
-.patient__name {
+.appointment-input {
     appearance: none;
 }
 
@@ -92,7 +91,7 @@
     main {
        padding-left: 265px;
     }
-    .appointment.-float {
+    .float-btn {
         display: none;
     }
     .appointment.-drop-down {
@@ -101,11 +100,11 @@
     .patient__info {
         display: none;
     }
-    .patient__name:checked ~ .patient__info {
+    .appointment-input:checked ~ .patient__info {
         display: block;
     }
 
-    .patient__name {
+    .appointment-input {
         appearance: none;
     }
 
@@ -145,7 +144,7 @@
     input[type="time"]::-webkit-calendar-picker-indicator {
          filter: brightness(0) saturate(100%) invert(90%) sepia(1%) saturate(283%)
           hue-rotate(177deg) brightness(93%) contrast(89%);
-}
+    }
 }
 
 @media screen and (min-width: 1040px)
